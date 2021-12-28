@@ -2,32 +2,26 @@ body {
     background-color: #e77878;
     margin: 0px;
     height: 100%;
-    /* overflow: hidden; */
+    position: relative;
 }
 
-
+.box{
+}
 #lottie {
- position: relative;
-    /* width: 100%; */
-    /* height: 100%; */
-    display: flex;
-    /* overflow: hidden; */
+ position: absolute;
+    display: inline;
     transform: translate3d(0, 0, 0);
     text-align: center;
-    opacity: 1
-    
+    opacity: 1 
 }
-            
-#potato{
-   
-    margin-top: 20;
-    margin-right: 50%;
-    margin-left: 50%;
-
+    #lottie2{
+ position: absolute;
+    display: inline;
+    transform: translate3d(0, 0, 0);
     text-align: center;
-    position: absolute;
-    width: 20%;
-}
+    opacity: 1 
+}        
+
 
 
 .st1{fill:none;stroke:#FF0000;stroke-width:3;}
