@@ -40,9 +40,8 @@ nav a {
 
 #home{
   
-    height: 1em;
+    height: 2em;
     background-color: black;
-
 }
 #blue{
     height: 1em;
@@ -71,12 +70,59 @@ nav a {
 }
 
 section{
-    left: 50%;
-    max-width: 50%;
+  position: relative;
+  margin-top: 2em;
     background-color: aqua
 }
+
 h1{
-    text-align: left;
+    position: absolute;
+    left: 50%;
+    font-size: 100px;
+    margin: 0;
+    z-index: 2;
+}
+
+#cutoutImg{
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    width:20%;
+}
+#pooyaImg{
+    position: absolute;
+    top: 20em;
+    left: 10em;
+    width:20%;
+}
+#feedbackImg{
+    position: absolute;
+    top: 4em;
+    left: 20em;
+    width:20%;
+}
+#ohrbitImg{
+    position: absolute;
+    left: 35em;
+    top: 8em;
+    width:30%;
+}
+#spacejunkImg{
+    position: absolute;
+    top: 0em;
+    left: 40em;
+    width:20%;
+}
+#simpleImg{
+    position: absolute;
+    top: 22em;
+    left: 40em;
+    width:20%;
+}
+h2{
+    position: absolute;
+    top: 10em;
+    left: 20%;
 }
 
 
