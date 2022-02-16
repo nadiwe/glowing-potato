@@ -1,8 +1,15 @@
+
+
 body {
-    background-color: #223aa3;
+    background-color: white;
     margin: 0px;
     height: 100%;
     position: relative;
+
+    font-family: din-2014,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+   
 }
 .wrapper{
     width: 100%;
@@ -30,6 +37,14 @@ nav a {
     text-decoration: none;
     color: black;
     position: relative;
+
+  
+}
+a{
+    font-family: din-2014,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+
 }
 .menu{
   display: flex;
@@ -40,90 +55,164 @@ nav a {
 
 #home{
   
-    height: 2em;
+    height: 3em;
     background-color: black;
 }
 #blue{
-    height: 1em;
+    height: 2em;
     background-color: blue;
 }
 #red{
-    height: 1em;
+    height: 2em;
     background-color: red;
 }
 #green{
-    height: 1em;
+    height: 2em;
     background-color: rgb(0,255,0);
 }
 #white{
-    height: 1em;
+    height: 2em;
     background-color: white;
 }
 #magenta{
   
-    height: 1em;
+    height: 2em;
     background-color: magenta;
 }
 #cyan{
-    height: 1em;
+    height: 2em;
     background-color: cyan;
 }
-
 section{
-  position: relative;
-  margin-top: 2em;
-    background-color: aqua
-}
+    position: relative;
+    margin-top: 2em;
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section{
+      color: #FF0000;
+      }
+      
+     
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    section{
+        color: blue;
+        }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    section{
+        color: green;
+        }  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    section{
+        color: magenta;
+        } 
+        h1{
+            position: absolute;
+            left: 50%;
+            font-size: 176px;
+            margin: 0;
+            z-index: 2;
+        
+        
+            font-family: din-2014,sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        }
+        #portfolio{
+            top: 1em;
+            margin: 0;
+            position: absolute;
+           z-index: 1;
+            
+           }
+         } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    section{
+        color: black;
+        }  
+        h1{
+            position: absolute;
+            left: 46%;
+            font-size: 176px;
+            margin: 0;
+            z-index: 2;
+        
+        
+            font-family: din-2014,sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        }
+        #portfolio{
+            width: 100%;
+            top: -1.5em;
+            margin: 0;
+            position: absolute;
+           z-index: 1;
+            
+           }
 
-h1{
-    position: absolute;
-    left: 50%;
-    font-size: 100px;
-    margin: 0;
-    z-index: 2;
-}
+
 
 #cutoutImg{
     position: absolute;
-    top: 3em;
-    left: 2em;
-    width:20%;
+    top:28em;
+    left: 24em;
+    width: 26%;
 }
 #pooyaImg{
     position: absolute;
-    top: 20em;
-    left: 10em;
-    width:20%;
+    top: 2em;
+    left: 19em;
+    width: 33%;
 }
 #feedbackImg{
     position: absolute;
-    top: 4em;
-    left: 20em;
-    width:20%;
+    top: 7em;
+    left: 2em;
+    width: 16%;
 }
 #ohrbitImg{
     position: absolute;
-    left: 35em;
-    top: 8em;
-    width:30%;
+    left: 52em;
+    top: 23em;
+    width: 30%;
 }
 #spacejunkImg{
     position: absolute;
     top: 0em;
-    left: 40em;
-    width:20%;
+    left: 58em;
+    width:31%;
 }
 #simpleImg{
     position: absolute;
-    top: 22em;
-    left: 40em;
-    width:20%;
+    top: 42em;
+    left: 50em;
+    width: 29%;
 }
 h2{
     position: absolute;
-    top: 10em;
-    left: 20%;
+    top: 11em;
+    left: 10em;
+    font-size: 2em;
+
+    font-family: din-2014,sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
+
+
+    }
+
 
 
 
