@@ -1,5 +1,3 @@
-
-
 body {
     background-color: white;
     margin: 0px;
@@ -7,73 +5,84 @@ body {
     position: relative;
 
     font-family: din-2014,sans-serif;
-    font-weight: 400;
-    font-style: italic;
-   
+
 }
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
-}
+
 nav{
-    position: relative;
-top:1em;
-    width: 100%; 
+    position: fixed;
+    top:1em;
+  
 }
 nav ul{
     list-style-type: none;
     padding: 0;
-    display: block;
     margin: 0;
     display: flex;
+    flex-direction: column;
 }
 
 nav li{
-    padding-left: 1em;
-    flex: 1 1 0;;
+    flex: 1 1 0;
 }
+
 nav a {
-    padding-bottom: 1em;
+    padding-left: 1em;
     text-decoration: none;
     color: black;
     position: relative;
 
-  
-}
-a{
-    font-family: din-2014,sans-serif;
-    font-weight: 800;
+    font-weight: 300;
     font-style: italic;
+    font-size: 8px;
+}
+h1{
+    position: absolute;
+    margin: 0;
+    font-weight: 900;
+    font-style: italic;
+}
+h2{ 
+    position: absolute;
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+}
 
-}
+
 .menu{
-  display: flex;
-  flex-direction: row;
-  width: 100%; 
-}
+    display: flex;
+   
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
 
 
 #home{
-  
     height: 3em;
     background-color: black;
 }
+
 #blue{
     height: 2em;
     background-color: blue;
 }
+
 #red{
     height: 2em;
     background-color: red;
 }
+
 #green{
     height: 2em;
     background-color: rgb(0,255,0);
 }
+
 #white{
     height: 2em;
     background-color: white;
 }
+
 #magenta{
   
     height: 2em;
@@ -83,80 +92,176 @@ a{
     height: 2em;
     background-color: cyan;
 }
+
 section{
     position: relative;
-    margin-top: 2em;
+    margin-top: 1em;
+    height: 400px;
   }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    section{
-      color: #FF0000;
-      }
+
+  img{
+      position: absolute;
+  }
+  #portfolio{
+display: none;
+  }
       
      
-  }
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
+  /* Medium devices (landscape tablets, 481px and up) */
+  @media only screen and (min-width: 505px) {
     section{
-        color: blue;
+        color: red;
+        }  
+        nav{
+            position: relative;
         }
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    section{
-        color: green;
-        }  } 
+        nav a{
+            font-size: 8px;
+        }
+        nav ul{
+            flex-direction: row;
+
+        }
+        h1{
+            left: 47%;
+            font-size: 80px;
+            top: 0.5em;
+        }
+        h2{
+            top: 9.6em;
+            left: 6%;
+            font-size: 24px;
+        }
+        #portfolio{
+            display: block;
+            top: 1em;
+            width: 100%;
+            margin: 0; 
+              position: static;
+          }
+
+        }
+#cutoutImg{
+    position: absolute;
+    top: 20em;
+    left: 12%;
+    width: 40%;
+}
+#pooyaImg{
+    position: absolute;
+    top: 3em;
+    left: 19em;
+    width: 43%;
+}
+#feedbackImg{
+    position: absolute;
+    top: 6em;
+    left: 1em;
+    width: 25%;
+}
+#ohrbitImg{
+    position: absolute;
+    right: 5%;
+    top: 21em;
+    width: 40%;
+}
+#spacejunkImg{
+    position: absolute;
+    top: 4em;
+    right:1%;
+    width: 33%;
+}
+#simpleImg{
+    position: absolute;
+    top: 32em;
+    right: 6%;
+    width: 29%;
+}
+
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     section{
-        color: magenta;
+        color: black;
+       
         } 
         h1{
-            position: absolute;
-            left: 50%;
-            font-size: 176px;
-            margin: 0;
-            z-index: 2;
-        
-        
-            font-family: din-2014,sans-serif;
-            font-weight: 900;
-            font-style: italic;
-        }
-        #portfolio{
-            top: 1em;
-            margin: 0;
-            position: absolute;
-           z-index: 1;
-            
-           }
-         } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    section{
-        color: black;
-        }  
-        h1{
-            position: absolute;
             left: 46%;
             font-size: 176px;
-            margin: 0;
-            z-index: 2;
-        
-        
-            font-family: din-2014,sans-serif;
-            font-weight: 900;
-            font-style: italic;
+            top: 0.5em;
         }
         #portfolio{
             width: 100%;
-            top: -1.5em;
+            top: 1em;
             margin: 0;
-            position: absolute;
+            position: static;
+            
+           }
+
+
+
+#cutoutImg{
+    position: absolute;
+    top: 28em;
+    left: 12%;
+    width: 40%;
+}
+#pooyaImg{
+    position: absolute;
+    top: 3em;
+    left: 19em;
+    width: 43%;
+}
+#feedbackImg{
+    position: absolute;
+    top: 16em;
+    left: 2em;
+    width: 18%;
+}
+#ohrbitImg{
+    position: absolute;
+    top: 27em;
+    right: 5%;
+    width: 40%;
+}
+#spacejunkImg{
+    position: absolute;
+    top: 4em;
+    right:1%;
+    width: 33%;
+}
+#simpleImg{
+    position: absolute;
+    top: 42em;
+    right: 6%;
+    width: 29%;
+}
+h2{
+    top: 10.6em;
+    left: 16%;
+    font-size: 2em;
+}
+            
+ }
+         
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+    section{
+        color: black;
+        }  
+    h1{
+            left: 46%;
+            font-size: 176px;
+            top: 0.5em;
+        }
+        #portfolio{
+            width: 100%;
+            top: 1em;
+            margin: 0;
+            position: static;
            z-index: 1;
             
            }
@@ -165,21 +270,21 @@ section{
 
 #cutoutImg{
     position: absolute;
-    top:28em;
-    left: 24em;
-    width: 26%;
+    top: 34em;
+    left: 22em;
+    width: 29%;
 }
 #pooyaImg{
     position: absolute;
-    top: 2em;
+    top: 3em;
     left: 19em;
-    width: 33%;
+    width: 35%;
 }
 #feedbackImg{
     position: absolute;
-    top: 7em;
+    top: 16em;
     left: 2em;
-    width: 16%;
+    width: 18%;
 }
 #ohrbitImg{
     position: absolute;
@@ -189,9 +294,9 @@ section{
 }
 #spacejunkImg{
     position: absolute;
-    top: 0em;
-    left: 58em;
-    width:31%;
+    top: 2em;
+    left: 59em;
+    width: 33%;
 }
 #simpleImg{
     position: absolute;
@@ -200,57 +305,10 @@ section{
     width: 29%;
 }
 h2{
-    position: absolute;
-    top: 11em;
+    top: 13.8em;
     left: 10em;
     font-size: 2em;
-
-    font-family: din-2014,sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#lottie {
- position: absolute;
-    display: inline;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1 
-}
-    #lottie2{
- position: absolute;
-    display: inline;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1 
-}        
-
-
-
-.st1{fill:none;stroke:#FF0000;stroke-width:3;}
-.st2{fill:#FF0000;}
-.st3{font-family:'Krungthep';}
-.st4{font-size:50.6909px;}
-.st5{font-size:84.4849px;}
-     
