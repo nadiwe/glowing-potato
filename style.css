@@ -159,12 +159,11 @@ section{
             position: absolute;
             top: 0.5em;
             left: 47%;
-            font-size: 120px;
-           
+            font-size: 120px;   
         }
         h3{
             position: absolute;
-            top: 10em;
+            top: 40%;
             left: 2%;
             font-size: 22px;
 
