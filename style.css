@@ -8,24 +8,25 @@ body {
 }
 h1{
     position: fixed;
-    bottom: 1em;
+    bottom: 2%;
     right: 3%;
     
     margin: 0;
     font-weight: 900;
     font-style: italic;
-    font-size: 62px;
+    font-size: 82px;
     z-index: 1;
 }
-h2{ 
+h3{
     position: fixed;
-    bottom: 1em;
-    right: 1%;
-
+    bottom: 40%;
+    right: 3%;
     margin: 0;
+
     font-weight: 300;
     font-style: normal;
-    font-size: 12px;
+    font-size: 22px;
+    writing-mode: vertical-lr;
     z-index: 1;
 }
 
@@ -34,7 +35,7 @@ nav{
     position: fixed;
     top:1em;
     z-index: 1;
-    width: 40%;
+    width: 50%;
   
 }
 nav ul{
@@ -107,9 +108,12 @@ nav a {
 }
 
 section{
+
+    display: block;
     position: relative;
     margin-top: 1em;
     height: 100vh;
+    width: 100%;
   }
 
   section a img {
@@ -118,9 +122,15 @@ section{
       height: 100%;
       object-fit: cover;
   }
-  #portfolio{
-display: none;
+  .banners{
+      display: block;
+    width: 100%; 
+
   }
+  #animation{
+      display: none;
+  }
+
       
      
   
@@ -147,15 +157,18 @@ display: none;
         
         h1{
             position: absolute;
+            top: 0.5em;
             left: 47%;
             font-size: 120px;
-            top: 0.5em;
+           
         }
-        h2{
+        h3{
             position: absolute;
-            left: 4%;
-            font-size: 28px;
-        }
+            top: 4em;
+            left: 2%;
+            font-size: 22px;
+
+        }        
         section{
               display: flex;
               flex-direction: row;
@@ -170,10 +183,17 @@ display: none;
             display: flex;
             width: calc(100%/7); 
          }
+         section a{
+             width: 100%;
+         }
+         #animation{
+            display: block;
+        }
         #portfolio{
             display: inline;
             top: 1em;
-            width: 100%;
+            left:55%;
+            width: 30%;
             margin: 0; 
             position: static;
           }
@@ -217,11 +237,10 @@ display: none;
             font-size: 176px;
             top: 0.5em;
         }
-        h2{
-            top: 14.6em;
-            left: 16%;
-            font-size: 2em;
+        nav a {
+            font-size: 15px;
         }
+    
          
     }
          
@@ -237,9 +256,7 @@ display: none;
             font-size: 176px;
             top: 0.5em;
         }
-     h2{
-            top: 14.6em;
-            left: 6em;
-            font-size: 2em;
-        }   
+        nav a {
+            font-size: 18px;
+        }
 }
