@@ -164,7 +164,7 @@ section{
         }
         h3{
             position: absolute;
-            top: 4em;
+            top: 10em;
             left: 2%;
             font-size: 22px;
 
@@ -236,6 +236,10 @@ section{
             left: 46%;
             font-size: 176px;
             top: 0.5em;
+        }
+        h3{
+            font-size: 26px;
+
         }
         nav a {
             font-size: 15px;
