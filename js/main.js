@@ -1,3 +1,6 @@
+
+
+
 var element = document.getElementById('portfolio');
 
 lottie.loadAnimation({
@@ -7,6 +10,12 @@ lottie.loadAnimation({
     autoplay: true,
     path: '/dataportfolio.json' // the path to the animation json
 });
+
+
+
+
+
+
 
 
 
