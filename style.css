@@ -41,8 +41,6 @@ nav{
     display: flex;
     flex-direction: column;
 }
-
-
 nav div{ 
     padding: 0;
     margin: 0;
@@ -63,8 +61,6 @@ h4{
     font-style: italic;
     font-size: 18px;
 }
-
-
 
 #home{
     background-color: black;
@@ -108,22 +104,36 @@ section a img {
    display: block;  
   }
 
+/*------------------------------------------------------------------------*/
 #under nav{
- height: 70%;
- width: 50%;
+    top: 0;
+ height: 80%;
+ width: 30%;
 }
-
 #under div{
     height: 100%;
     width: 50%;
+    margin: 0;
+}
+#under #blue{
+    width: 100%;
+    margin: 0;
+} 
+#under section{
+    display: inline;
+    width: auto;
+    left: 20%;
+    margin: 2;
+position: absolute;
+padding-right: 23px;   
 }
 
-div#cutout{
-    width: 100%;
-} 
+._cutout{
+    color: blue;
+    background-color: rgb(175, 245, 175);
+}
 
 
-      
      
   
   /* Medium devices (landscape tablets, 481px and up) */
