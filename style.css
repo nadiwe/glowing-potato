@@ -116,8 +116,11 @@ width: 30%;
 }
 .under div{
     height: 100%;
-    width: 50%;
+
     margin: 0;
+}
+._sizeNav{
+    width: 50%;
 }
 
 .under section{
@@ -129,6 +132,13 @@ width: 30%;
 }
 
 .under div#_blue{
+    width: 100%;
+}
+.under ._sizeNavIndex{
+    width: 50%;
+}
+
+.aktive{
     width: 100%;
 }
 

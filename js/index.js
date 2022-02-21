@@ -25,7 +25,63 @@ $(document).ready(function(){
     )
   });
 
-  
+
+
+  var nav_elements = $('._sizeNav');
+  var aktuell = 0;
+  var object_top;
+
+  var objects = $(nav_elements[0]);
+  //console.log(objects)
+
+   objects.addClass('aktive');
+
+   $(window).scroll(function(){
+
+    for(var i = 0; i < nav_elements.length; i++){
+
+      var link = $(nav_elements[i]).attr('href');
+
+      if($(link).length){
+        object_top = $(link).offset().top   
+      }
+   
+var scroll_top = $(window).scrollTop();
+var differenz = Math.abs(scroll_top - object_top);
+//console.log('top: '+scroll_top)
+//console.log('objekt: '+object_top)
+
+//console.log('dif :'+differenz)
+
+console.log(link +'-'+differenz)
+
+
+ 
+if(i===0){
+  aktuell = differenz
+  objects = $(nav_elements[i])
+  $('._sizeNav').removeClass('aktive')
+  objects.addClass('aktive')
+ } else{
+    if(differenz < aktuell || differenz === aktuell){
+      aktuell = differenz
+      objects = $(nav_elements[i])
+      $('._sizeNav').removeClass('aktive')
+      objects.addClass('aktive')
+    }
+ 
+
+ 
+
+}
+}
+
+});
+   
+
+
+});
+  /*
 
 $.fn.isInViewport = function() {
 var elementTop = $(this).offset().top;
@@ -70,8 +126,8 @@ let changeNavW = $(changeNav).css('width')
 })
 
 });
+*/
 
-});
 
 
 
