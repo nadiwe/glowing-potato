@@ -100,6 +100,8 @@ section a img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      margin: 0;
+      padding: 0;
   }
 
 .bars{
@@ -116,7 +118,6 @@ width: 30%;
 }
 .under div{
     height: 100%;
-
     margin: 0;
 }
 ._sizeNav{
@@ -125,14 +126,16 @@ width: 30%;
 
 .under section{
     width: 100%;
-    display: flex;  
+    display: inline-block;  
     margin: 0;
     height: auto;
-    justify-content: center;
+   
+   
 }
 
-.under div#_blue{
-    width: 100%;
+.under section div{
+margin: 0 2% 0 38%;
+
 }
 .under ._sizeNavIndex{
     width: 50%;
