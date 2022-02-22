@@ -37,6 +37,11 @@ h5{
     font-weight: 900;
     font-style: italic;  
 }
+a{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
 
 
 
@@ -148,15 +153,15 @@ width: 30%;
 .aktive{
     width: 100%;
 }
-section#_blue{
+section#_blue ,a{
     color: blue;
     background-color: rgb(175, 245, 175);
 }
-section#_red{
+section#_red, a{
     color: red;
     background-color: rgb(168, 198, 212)
 }
-section#_green{
+section#_green, a{
     color: rgb(0,255,0);
     background-color: rgb(56, 41, 58)
 }
@@ -164,11 +169,11 @@ section#_white{
     color: white;
     background-color: rgb(28, 31, 32);
 }
-section#_magenta{
+section#_magenta, a{
     color:magenta;
     background-color: rgb(122, 197, 122)
 }
-section#_cyan{
+section#_cyan, a{
     color: cyan;
     background-color: rgb(63, 31, 31)
 }
