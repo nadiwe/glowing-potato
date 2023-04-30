@@ -146,14 +146,7 @@ h3 {
     position: fixed;
 }
 
-.inhalt {
-    height: 76vh;
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 .menu {
     position: fixed;
@@ -166,15 +159,19 @@ h3 {
     margin: revert;
 }
 
+.scroll {
+    overflow: scroll;
+    height: 41vh;
+
+
+}
+
 .impression {
     object-fit: cover;
     width: 100%;
 }
 
-.column {
-    flex: 1;
 
-}
 
 @media (min-width: 768px) {
     .container {
@@ -187,6 +184,14 @@ h3 {
 
     .inhalt {
         flex-direction: row;
+    }
+
+    .impression {
+        width: 39vw;
+    }
+
+    .scroll {
+        height: 74vh;
     }
 
     .memu {
