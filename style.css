@@ -158,7 +158,7 @@ h3 {
 .menu {
     position: fixed;
     bottom: 0px;
-    width: 20px;
+    width: 27px;
     height: 48px;
 }
 
@@ -181,7 +181,15 @@ h3 {
         width: 76vw;
     }
 
+    .column {
+        padding: 0px 0 0 33px;
+    }
+
     .inhalt {
         flex-direction: row;
+    }
+
+    .memu {
+        width: 73px;
     }
 }
