@@ -12,11 +12,7 @@
 
 }
 
-@font-face {
-    font-family: "din-2014";
-    src:
-        url(/font/DIN2014-Regular.ttf) format("ttf"),
-}
+
 
 
 
@@ -139,7 +135,7 @@ h2 {
 }
 
 h3 {
-    font-family: "din-2014", sans-serif;
+    font-family: 'DIN2014', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
