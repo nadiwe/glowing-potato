@@ -71,18 +71,38 @@ video {
 
 }
 
+.containerIndex {
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+
+    padding: 0px 10px;
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+
+
+}
 
 
 .container {
 
     display: flex;
     flex-direction: column;
+    position: fixed;
+    top: 37px;
 
     padding: 0px 10px;
 
-    position: absolute;
-    width: 369px;
+    width: 100%;
+    height: 100vh;
     overflow: hidden;
+
+
 
 }
 
@@ -144,28 +164,33 @@ h3 {
     margin: 0 0 12px 0;
 }
 
-.titel {
-    position: fixed;
+
+
+.inhalt {
+    padding-right: 22px;
 }
 
 
 
 .menu {
+    padding: 10px 10px;
     position: fixed;
-
     width: 27px;
-    height: 48px;
+    z-index: 9999;
+
 }
 
 .menu hr {
     margin: revert;
 }
 
-.scroll {
-    overflow: scroll;
-    height: 41vh;
 
 
+
+
+.title {
+    width: 100%;
+    position: fixed;
 }
 
 .impression {
@@ -173,7 +198,24 @@ h3 {
     width: 100%;
 }
 
+.box {
+    position: fixed;
+    padding: 0 10px;
+    height: 85%;
+    top: 49px;
+}
 
+.splitToRow {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.scroll {
+    overflow: scroll;
+    height: 80%;
+}
 
 @media (min-width: 768px) {
     .container {
@@ -184,16 +226,18 @@ h3 {
         padding: 0px 0 0 33px;
     }
 
-    .inhalt {
+    .splitToRow {
         flex-direction: row;
     }
+
 
     .impression {
         width: 39vw;
     }
 
     .scroll {
-        height: 74vh;
+        padding: 2vw;
+        height: 100%;
     }
 
     .memu {
