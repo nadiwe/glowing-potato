@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.cdnfonts.com/css/formula-condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zbt1tfg.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
 
     <style>
         @import url('https://fonts.cdnfonts.com/css/formula-condensed');
@@ -45,7 +47,8 @@
         </div>
 
         <div class="splitToRow">
-            <div class="column"> <img class="impression" src="/img/logo.jpg" alt="nadia westermann">
+            <div class="column"> <img class="impression" src="/img/logo.jpg" alt="nadia westermann"
+                    onclick="showImage()">
             </div>
             <div class="column scroll">
                 <h2>_keywords</h2>
@@ -70,14 +73,32 @@
                         href="https://www.figma.com/proto/vLV4ZK9EKTRYZDs4S132SZ/repose?page-id=516%3A531&node-id=516-738&viewport=241%2C48%2C0.08&scaling=min-zoom&starting-point-node-id=516%3A944">click
                         dummy</a>
                 </h3>
+                <div class="text abschnitt" onclick="showImage()">
+                    <h2>+ mehr Impressionen</h2>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="wrapper" id="appear" style="display: none;">
+
+            <div class="carusell">
+
+                <img src="/img/repose/1.gif" alt="">
+
+                <video src="/img/repose/2.mp4" controls></video>
+
+
+            </div>
+            <div class="abschnitt" onclick="showImage()">
+                <h2 class="abschnitt">schliessen</h2>
 
             </div>
         </div>
 
     </div>
-
-
-
 
 </body>
 

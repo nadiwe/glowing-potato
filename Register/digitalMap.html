@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.cdnfonts.com/css/formula-condensed" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=DIN2014' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
 
     <style>
         @import url('https://fonts.cdnfonts.com/css/formula-condensed');
@@ -44,7 +46,8 @@
         </div>
 
         <div class="splitToRow">
-            <div class="bild"> <img class="impression" src="/img/karte.png" alt="nadia westermann">
+            <div class="bild"> <img class="impression" src="/img/karte.png" alt="nadia westermann"
+                    onclick="showImage()">
             </div>
             <div class="scroll">
                 <h2>_keywords</h2>
@@ -64,12 +67,35 @@
                     <a target="_blank" href="https://www.digital-map.ch/">www.digital-map.ch</a>
 
                 </h3>
+                <div class="text abschnitt" onclick="showImage()">
+                    <h2>+ mehr Impressionen</h2>
+
+                </div>
             </div>
         </div>
+
+
+        <div class="wrapper" id="appear" style="display: none;">
+            <div class="carusell">
+
+                <img src="/img/digitalmap/1.ai" alt="">
+                <img src="/img/digitalmap/2.svg" alt="">
+                <img src="/img/digitalmap/3.gif" alt="">
+                <img src="/img/digitalmap/4.png" alt="">
+                <video src="/img/digitalmap/7.mp4" controls></video>
+
+
+
+
+
+            </div>
+            <div class="abschnitt" onclick="showImage()">
+                <h2 class="abschnitt">schliessen</h2>
+
+            </div>
+
+        </div>
     </div>
-
-
-
 
 </body>
 

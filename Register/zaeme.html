@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.cdnfonts.com/css/formula-condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/zbt1tfg.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
 
     <style>
         @import url('https://fonts.cdnfonts.com/css/formula-condensed');
@@ -44,7 +46,8 @@
         </div>
 
         <div class="splitToRow">
-            <div class="bild"> <img class="impression" src="/img/Ursula.jpg" alt="nadia westermann"></div>
+            <div class="bild"> <img class="impression" src="/img/Ursula.jpg" alt="nadia westermann"
+                    onclick="showImage()"></div>
             <div class="scroll">
                 <h2>_keywords</h2>
                 <h3> UX | geringe digitale Fähigkeiten | Dialogsprozess | interaktive Anleitung </h3>
@@ -71,13 +74,41 @@
                     Mittels intensiviertem Feedback wird dem Nutzer Gewissheit verschafft, dass die Interaktion vom
                     System erkannt wurde.
                 </h3>
+                <div class="text abschnitt" onclick="showImage()">
+                    <h2>+ mehr Impressionen</h2>
 
+                </div>
             </div>
 
         </div>
+
+
+        <div class="wrapper" id="appear" style="display: none;">
+            <div class="carusell">
+
+                <img src="/img/zaeme/1.jpg" alt="">
+                <img src="/img/zaeme/2.jpg" alt="">
+                <img src="/img/zaeme/3.jpeg" alt="">
+                <img src="/img/zaeme/4.gif" alt="">
+                <img src="/img/zaeme/5.png" alt="">
+                <img src="/img/zaeme/6.png" alt="">
+                <img src="/img/zaeme/7.png" alt="">
+                <video src="/img/zaeme/8.mov" controls></video>
+                <video src="/img/zaeme/9.mov" controls></video>
+                <video src="/img/zaeme/10.mov" controls></video>
+
+
+
+
+
+
+            </div>
+            <div class="abschnitt" onclick="showImage()">
+                <h2 class="abschnitt">schliessen</h2>
+
+            </div>
+        </div>
     </div>
-
-
 
 
 </body>

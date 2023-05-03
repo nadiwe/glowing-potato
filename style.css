@@ -245,9 +245,16 @@ h3 {
     white-space: nowrap;
     top: 62px;
     position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10.5px);
 }
 
 .carusell img {
+    height: 80vh;
+    padding-right: 10px;
+}
+
+.carusell video {
     height: 80vh;
     padding-right: 10px;
 }
