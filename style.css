@@ -30,6 +30,11 @@ a {
 
 }
 
+.prototy {
+    text-decoration: revert;
+
+}
+
 video {
     width: 100%;
     height: auto;
@@ -198,6 +203,11 @@ h3 {
     width: 100%;
 }
 
+.impression:hover {
+    display: block;
+}
+
+
 .box {
     position: fixed;
     padding: 0 10px;
@@ -216,6 +226,34 @@ h3 {
     overflow: scroll;
     height: 80%;
 }
+
+.wrapper {
+    position: absolute;
+    top: 0;
+}
+
+.wrapper h2 {
+    top: 61px;
+    right: 10px;
+    position: fixed;
+}
+
+.carusell {
+    width: 100vw;
+    overflow-x:
+        scroll;
+    white-space: nowrap;
+    top: 62px;
+    position: absolute;
+}
+
+.carusell img {
+    height: 80vh;
+    padding-right: 10px;
+}
+
+
+
 
 @media (min-width: 768px) {
     .container {
