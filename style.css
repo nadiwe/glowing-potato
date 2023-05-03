@@ -30,6 +30,16 @@ a {
 
 }
 
+.galerie h3 {
+    width: 100%;
+    text-decoration: underline;
+}
+
+.galerie {
+    width: fit-content;
+
+}
+
 .prototy {
     text-decoration: revert;
 
@@ -233,9 +243,20 @@ h3 {
 }
 
 .wrapper h2 {
-    top: 61px;
+    top: 13px;
     right: 10px;
     position: fixed;
+}
+
+.illu {
+    position: absolute;
+    top: 63px;
+    ;
+}
+
+.illu:hover {
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .carusell {
@@ -282,10 +303,15 @@ h3 {
 
     .scroll {
         padding: 2vw;
-        height: 100%;
+        height: 80%;
     }
 
     .memu {
         width: 73px;
+    }
+
+    .wrapper h2 {
+        top: 61px;
+
     }
 }
