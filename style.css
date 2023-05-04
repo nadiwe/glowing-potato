@@ -249,6 +249,7 @@ h3 {
 }
 
 .illu {
+    width: 76%;
     position: absolute;
     top: 63px;
 
@@ -280,6 +281,9 @@ h3 {
     padding-right: 10px;
 }
 
+.bild {
+    width: 80%;
+}
 
 
 
@@ -313,5 +317,9 @@ h3 {
     .wrapper h2 {
         top: 61px;
 
+    }
+
+    .bild {
+        width: 100%;
     }
 }
